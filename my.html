@@ -1,1 +1,171 @@
+/* === index.html === */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebiya Ismail | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rebiya Ismail</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section class="intro">
+    <h2>Welcome!</h2>
+    <p>I’m Rebiya Ismail, a passionate web developer and designer focused on creating beautiful, responsive websites and digital experiences.</p>
+    <a href="skills.html" class="button">View My Skills</a>
+  </section>
+</body>
+</html>
+
+
+/* === skills.html === */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Rebiya Ismail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rebiya Ismail</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li><strong>HTML & CSS:</strong> Building clean, semantic, responsive layouts.</li>
+      <li><strong>JavaScript:</strong> Adding interactivity and dynamic content.</li>
+      <li><strong>Python:</strong> Scripting and back-end logic.</li>
+      <li><strong>UI/UX Design:</strong> Creating user-friendly, visually appealing interfaces.</li>
+    </ul>
+  </section>
+</body>
+</html>
+
+
+/* === contact.html === */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rebiya Ismail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rebiya Ismail</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: rebiya@example.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/rebiya</a></p>
+    <p>GitHub: <a href="#">github.com/rebiya</a></p>
+  </section>
+</body>
+</html>
+
+
+/* === style.css === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5faff;
+  color: #333;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.button {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.skills ul {
+  list-style-type: square;
+  padding-left: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
 
